@@ -33,7 +33,7 @@ class SeleniumDebitCardTest {
         driver = new ChromeDriver(options);
 
         driver = new ChromeDriver(options);
-        driver.get("http://localhost:9999/");
+        driver.get("http://localhost:7777/");
     }
 
     @AfterEach
