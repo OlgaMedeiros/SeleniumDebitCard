@@ -101,7 +101,7 @@ class SeleniumDebitCardTest {
     }
 
     @Test
-    public void testInputPhoneOnlySymbolPlus() {
+    public void testPhoneNoPlus() {
         driver.findElement(By.cssSelector("[data-test-id='name'] input")).sendKeys("Иванов Иван");
         driver.findElement(By.cssSelector("[data-test-id='phone'] input")).sendKeys("79172147958");
         driver.findElement(By.cssSelector("[data-test-id='agreement']")).click();
